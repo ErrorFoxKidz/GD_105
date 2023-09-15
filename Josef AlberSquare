@@ -32,4 +32,3 @@ square(508, 670, 342);
     print("canvas saved as " + filename + ".png");
   }   
 }
-  
