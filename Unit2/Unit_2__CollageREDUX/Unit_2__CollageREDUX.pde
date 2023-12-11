@@ -39,7 +39,13 @@ void draw(){
   //words
   textFont(Title);
   text("GODZILLA!!!", 755, 50);
- 
   
+    
+  if(frameCount == 1) {
+    String filename = "GD105_Unit2_GodzillaCollage";
+    save(filename + ".png");
+    print("canvas saved as " + filename + ".png");
+  }
+ 
   
 }
